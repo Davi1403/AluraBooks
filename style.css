@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carousel.css");
+@import url("styles/recent-visited.css");
+@import url("styles/news.css");
+@import url("styles/footer.css");
+
+:root{
+    --background-color : #EBECEE;
+    --white: #FFFFFF; 
+    --orange: #EB9B00;
+    --blue-gradient : linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --blue: #002F52;
+    --grey : #858585;
+
+
+    --primary-font: "Poppins", serif;
+
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: normal;
+}

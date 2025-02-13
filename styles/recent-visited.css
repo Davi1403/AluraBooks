@@ -1,0 +1,28 @@
+.recent-viseted{
+    background: var(--blue-gradient);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.recent-viseted__title{
+    color: var(--white);
+    font-weight: 300;
+    padding: 1.5em; 
+}
+
+.recent-viseted__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.recent-viseted__button{
+    font-size: 0.875em;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--orange);
+    padding: 1em 1.5em;
+}
+

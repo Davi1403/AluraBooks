@@ -1,0 +1,73 @@
+.carousel__title{
+    background-color: var(--white);
+    color: var(--orange);
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1.25em 0 0.5em 0;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    padding: 0.5em 0;
+}
+
+.card{
+    margin: 1.5em;
+    padding: 1em;
+    background-color: var(--white);
+    border-radius: 0.8em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);        
+}
+
+.card__description{
+    display: flex;
+    align-items: flex-start;
+}
+
+.description__comment{
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.description__title{
+    font-size: 1.125em;
+    font-weight: 700;
+    color: var(--blue);
+    margin: 0.5em 0;
+}
+
+.description__text{
+    font-size: 0.875em;
+    padding-right: 2.5em;
+}
+
+.description__img{
+    width: 100%;
+}
+
+.card__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__button{
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 2.25rem;
+}
+
+.description__stars{
+    width: 50%;
+}

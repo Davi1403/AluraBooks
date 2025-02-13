@@ -1,0 +1,61 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    position: relative;
+}
+
+.header__hamburger{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-position: center;
+    display: inline-block;
+    background-position: center;        
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+
+}
+
+.container__image{
+    padding: 1em;
+ }
+
+ .list-menu{
+    display: none;
+    position: absolute;
+    top: 100%
+ }
+
+.container__button{
+   display: none;
+}
+
+ .container__button:checked ~ .list-menu{
+    display: block;
+ }
+
+ .list-menu__title,.list-menu__item{
+    padding: 1em 8em 1em 2em; 
+    background-color: var(--white);
+ }
+
+ .list-menu__title{
+    color: var(--orange);
+    font-weight: 700;
+ }
+
+
+ .list-menu__link{
+   text-decoration: none;
+   
+   background: var(--blue-gradient);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
