@@ -1,7 +1,7 @@
 .recent-viseted{
     background: var(--blue-gradient);
     text-align: center;
-    padding-bottom: 1em;
+    padding: 0 1em 2em 1em;
 }
 
 .recent-viseted__title{
@@ -18,7 +18,7 @@
 }
 
 .recent-viseted__button{
-    font-size: 0.875em;
+    font-size: 14px ;
     color: var(--white);
     font-weight: 700;
     text-decoration: none;
@@ -26,3 +26,27 @@
     padding: 1em 1.5em;
 }
 
+@media screen and (min-width: 1024px) {
+    .recent-viseted__title,  .recent-viseted__button{
+        font-size: 24px;    
+    }
+    
+    .recent-viseted__buttons{
+        gap: 2em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .recent-viseted{
+        padding: 4em 20%;
+    }
+    .recent-viseted__title{
+        padding-top: 0;
+        font-size: 32px;
+    }
+
+    .recent-viseted__button{
+        font-size: 24px;
+    }
+}

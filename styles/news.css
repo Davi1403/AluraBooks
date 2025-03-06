@@ -1,5 +1,10 @@
 .news{
-    padding: 1.5em;
+    background-color: #FFFFFF;
+    padding: 1.5em; 
+    
+}
+
+.gradient-text {
     background: var(--blue-gradient);
     background-clip: text;
    -webkit-background-clip: text;
@@ -8,7 +13,8 @@
 
 .news__title{
     font-weight: 500;
-    font-size: 1.125em;
+    font-size: 18px;
+    
 }
 
 .news__paragraph{
@@ -22,15 +28,53 @@
     border: 1px solid var(--blue);
     color: var(--white);
     padding: 1em;
-    width: 100%;
+    width: 100%;    
 }
 
 .news__search::placeholder{
     font-family: var(--primary-font);
     font-weight: 400;
-    font-size: 0.875rem;
+    font-size: 14px;
     color: var(--blue);
     text-align: center;
     background: url(../img/Email.svg) no-repeat;
     background-position: 1.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .news{
+        display: flex;
+        align-items: center;
+        gap: 10em;
+        padding: 2em 20em;
+    }
+
+    .news__title{
+        font-size: 24px;
+    }
+
+    .news__paragraph{
+        font-size: 16px;
+    }
+
+    .news__search{
+        width: 50%;
+    }
+
+    .news__search::placeholder{
+        font-size: 16px;
+        background-position: 0em;
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .news{
+        padding: 4em 25em;
+        gap: 2em;
+    }
+
+    .news__search{
+        width: 50%;
+    }
 }

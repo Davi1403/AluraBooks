@@ -2,7 +2,7 @@
     background-color: var(--white);
     color: var(--orange);
     text-align: center;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 700;
     padding: 1.25em 0 0.5em 0;
 }
@@ -39,20 +39,17 @@
 }
 
 .description__title{
-    font-size: 1.125em;
+    font-size: 18px;
     font-weight: 700;
     color: var(--blue);
     margin: 0.5em 0;
 }
 
 .description__text{
-    font-size: 0.875em;
+    font-size: 14px;
     padding-right: 2.5em;
 }
 
-.description__img{
-    width: 100%;
-}
 
 .card__buttons{
     display: flex;
@@ -65,9 +62,55 @@
     color: var(--white);
     font-weight: 700;
     text-decoration: none;
-    padding: 1rem 2.25rem;
+    padding: 1em 2.2em;
 }
 
 .description__stars{
     width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel__title{
+        font-size: 26px;
+        padding: 2em 0 0.5em 0;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0 2em 0;
+    }
+
+    .swiper{
+        width:60%;
+    }
+
+    .card{
+        width: 40%;
+        margin: 4em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carousel__swiper-card{
+        display: flex;
+        align-items: center;
+        margin: 0 10vw 5em 10vw;         
+    }   
+
+    .swiper-pagination{
+        padding: 0;
+        margin: 1em;
+    }
+
+    .swiper{
+        width:40%;
+    }
+
+    .carousel__title, .description__comment{
+        font-size: 32px;
+    }
+    
+    .description__title{
+        font-size: 18px;
+    }
 }

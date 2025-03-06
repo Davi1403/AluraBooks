@@ -12,9 +12,12 @@
     --blue-gradient : linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --blue: #002F52;
     --grey : #858585;
+    --grey2 : #474646;
+    --footer-bg: #F9F9F9;
 
 
     --primary-font: "Poppins", serif;
+    --secundary-font : "Josefin Sans", serif;
 
 }
 
